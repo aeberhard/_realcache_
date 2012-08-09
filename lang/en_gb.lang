@@ -1,0 +1,40 @@
+# Addon: _realcache_ en_gb
+#
+
+menu_link = RealCache
+title = Addon: RealCache
+
+text_help_title = <br /><strong>RealCache Version 1.2</strong><br /><br />
+text_help_1  = This Addon caches the output of REDAXO-Pages in a directory and the next time te cached page is shown.<br /><br />
+text_help_2  = The caching can be activated with all categories or only with selected categories.<br />
+text_help_3  = It can be set according to what time the cached version will be renewed.
+text_help_4  = <br /><br /><br /><br />More Information on the <a href="http://rex.andreaseberhard.de" target="_blank">Webdesign Playground</a> ;-)<br /><br />
+text_help_5  = &nbsp;
+text_help_6  = &nbsp;
+text_help_7  = &nbsp;
+text_help_8  = &nbsp;
+text_help_9  = &nbsp;
+text_help_10 = &nbsp;
+
+text_settings_intro = Here you can choose for which categories caching will be activated.<br />The caching can be either activated in all categories or only in selected categories.
+text_settings_help = <em>Keep the [Strg] key pressed to select multiple categories!</em>
+text_settings_allcats = <strong>with all categories</strong>
+text_settings_subcats = <strong>inclusive subcategories</strong>
+text_settings_cachetime = <strong>Minutes after which the cache will be renewed:</strong>
+text_rootarticles = --- Root-Articles ---
+
+msg_saved = <font color="#006600"><strong>Settings successfully saved!</strong></font><br />
+msg_cleared = <font color="#006600"><strong>Cache cleared - {0} cachefiles removed</strong></font><br />
+
+error_createdir = Directory could not be created: {0} <br /><br />
+error_readdir = Error reading directory {0} <br /><br />
+error_copyfile = Can't copy file {0} to {1}<br />
+error_save = <font color="#cc0000"><strong>Could not save file {0}! <br /></strong></font>
+error_read = <font color="#cc0000"><strong>File {0} not found! <br /></strong></font>
+
+menu_settings = Settings
+menu_clearcache = Clear Cache
+menu_information = Information
+menu_changelog = Changelog
+
+button_save = Save Settings

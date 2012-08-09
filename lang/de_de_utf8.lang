@@ -1,0 +1,40 @@
+# Addon: _realcache_ de_de
+#
+
+menu_link = RealCache
+title = Addon: RealCache
+
+text_help_title = <br /><strong>RealCache Version 1.2</strong><br /><br />
+text_help_1  = Dieses Addon cached die Ausgabe der REDAXO-Seiten in ein Verzeichnis und beim n&auml;chsten Aufruf der Seite wird diese Cache-Version angezeigt.<br /><br />
+text_help_2  = Das Caching kann entweder bei allen Kategorien oder nur bei ausgew&auml;hlten Kategorien aktiviert werden.<br />
+text_help_3  = Es kann vorgegeben werden nach welchem Zeitraum die Cache-Version erneuert wird.
+text_help_4  = <br /><br /><br /><br />Mehr Informationen auf der <a href="http://rex.andreaseberhard.de" target="_blank">Webdesign Spielwiese</a> ;-)<br /><br />
+text_help_5  = &nbsp;
+text_help_6  = &nbsp;
+text_help_7  = &nbsp;
+text_help_8  = &nbsp;
+text_help_9  = &nbsp;
+text_help_10 = &nbsp;
+
+text_settings_intro = Hier k&ouml;nnen Sie ausw&auml;hlen bei welchen Kategorien das Caching aktiviert werden soll.<br />Das Caching kann entweder bei allen Kategorien oder nur bei ausgew&auml;hlten Kategorien aktiviert werden.
+text_settings_help = <em>Zur Mehrfachauswahl von Kategorien die [Strg]-Taste gedr&uuml;ckt halten!</em>
+text_settings_allcats = <strong>bei allen Kategorien</strong>
+text_settings_subcats = <strong>inklusive Unterkategorien</strong>
+text_settings_cachetime = <strong>Minuten nach denen der Cache erneuert wird:</strong>
+text_rootarticles = --- Root-Arikel ---
+
+msg_saved = <font color="#006600"><strong>Einstellungen gespeichert!</strong></font><br />
+msg_cleared = <font color="#006600"><strong>Cache gel&ouml;scht - {0} Cache-Dateien entfernt</strong></font><br />
+
+error_createdir = Verzeichnis konnte nicht erstellt werden: {0} <br /><br />
+error_readdir = Fehler beim Zugriff auf das Verzeichnis {0} <br /><br />
+error_copyfile = Datei {0} konnte nicht nach {1} kopiert werden <br />
+error_save = <font color="#cc0000"><strong>Datei {0} konnte nicht gespeichert werden! <br /></strong></font>
+error_read = <font color="#cc0000"><strong>Datei {0} konnte nicht gelesen werden! <br /></strong></font>
+
+menu_settings = Einstellungen
+menu_clearcache = Cache l&ouml;schen
+menu_information = Informationen
+menu_changelog = Changelog
+
+button_save = Einstellungen speichern

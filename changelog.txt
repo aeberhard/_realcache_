@@ -1,0 +1,16 @@
+Addon: _realcache_ Version 1.2
+
+01.09.2008 Version 1.2 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Bei Änderung der Konfiguration Cache löschen
+           - Wenn nichts für Cache ausgewählt wurde keinen Cache ausgeben
+           - $REX['USE_GZIP'] wird berücksichtigt
+
+07.07.2008 Version 1.1 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - REDAXO Version 3.11 wird jetzt unterstützt
+           - Artikel-ID 0 für die Startseite
+           - Bugfix realcache_removedir, Funktion jetzt in config.inc.php
+           - Cache bei Installation/Reinstallation löschen
+           - Cache löschen bei "System->Cache löschen" bzw. "Specials->Regeneriere Artikel & Cache"
+
+03.07.2008 Version 1.0 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Erste Version für REDAXO ab 3.2
